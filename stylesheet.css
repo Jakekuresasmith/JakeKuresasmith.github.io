@@ -15,8 +15,8 @@ p {
 }
 
 a:link, a:visited {
-    background-color: white;
-    color: grey;
+    background-color: grey;
+    color: black;
     border: 2px solid red;
     padding: 10px 20px;
     text-align: center;
