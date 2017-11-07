@@ -13,12 +13,31 @@ p {
 	 font-family: verdana;
     font-size: 20px;
 }
+
+
 ul {
     list-style-type: none;
-    margin: 12;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
 li {
-    display: inline;
+    float: left;
+	display: inline;
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 
