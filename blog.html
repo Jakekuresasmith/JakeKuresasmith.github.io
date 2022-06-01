@@ -1,0 +1,81 @@
+<!Document html>
+<html>
+<head>    
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Finn and Jake Investigations</title>
+    <link rel="stylesheet" href="Styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Index.html"><img src="img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SHOWCASE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+             </ul>
+         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+    
+<h1>Showcase</h1>
+        
+</section>
+<!---- Showcase ----->
+<section class="showcase">
+    <h1>Showcase</h1>
+    <p>Monsters/people we've taken care of</p>
+    
+    <div class="row">
+        <div class="showcase-col">
+            <h3>Ice King</h3>
+            <p>One of our most persistant problems is The Ice King being obsessed with capturing princesses so that one may become his queen to be. Thankfully you don't need to worry about him since we know his tricks and all of his ways to capture and cause havoc.</p>
+        </div>
+        <div class="showcase-col">
+            <h3>Business Men</h3>
+            <p>These guys seemed cool to start of with but became total plugholes when we found out they were jacking up some of our fuzzie friends, they were thinking they were protecting them by putting them in a gigantic metal Finn! So we fired them in the end but thankfully got this sweet website. </p>
+        </div>
+        <div class="showcase-col">
+            <h3>The Lich </h3>
+            <p>The Lich was bad biscuits one of the worst dudes we ever encountered to make a huge story short Mr.Fox helped out and saved our buns by pointing the stick of life the right way and got rid of the Lich making him the new death. Super cool.</p>
+        </div>
+    </div>
+</section>
+    
+
+<!---- Footer ----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We'd love for you to check out our socials!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+</section>
+
+<!----Javascript for menu ----->
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
